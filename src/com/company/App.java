@@ -11,7 +11,9 @@ public class App {
         System.out.println("book2 = " + book2.getBookName() + book2.getPublishingYear() + " author2 = " + book2.getAuthor().getFirstName() + book2.getAuthor().getLastName());
         System.out.println(book1);
         System.out.println(book2);
-        System.out.println(author1.equals(author2));
-        System.out.println(book1.equals(book2));
+        Author author3 = author1;
+        System.out.println(author1.equals(author3));
+        Book book3 = book1;
+        System.out.println(book1.equals(book3));
     }
 }
