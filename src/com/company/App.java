@@ -15,5 +15,6 @@ public class App {
         System.out.println(author1.equals(author3));
         Book book3 = book1;
         System.out.println(book1.equals(book3));
+        System.out.println((book1.hashCode())+ " " + (book2.hashCode()));
     }
 }
